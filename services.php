@@ -57,12 +57,12 @@
   <div class="transition-overlay"></div>
   <!-- end transition-overlay -->
   <main>
-  <?php include "includes/header.php" ?>
+    <?php include "includes/header.php" ?>
 
 
 
 
-  <section class="int-hero">
+    <section class="int-hero">
       <div class="video-bg">
         <video src="videos/video.mp4" muted autoplay loop></video>
       </div>
@@ -175,19 +175,7 @@
   </main>
   <div class="footer-spacing"></div>
   <!-- end footer-spacing -->
-  <footer class="footer"> <img src="images/logo.png" alt="Image">
-    <ul class="social-media">
-      <li><a href="#">FB</a></li>
-      <li><a href="#">TW</a></li>
-      <li><a href="#">YT</a></li>
-      <li><a href="#">BE</a></li>
-    </ul>
-    <h4>Creativity is Everywhere</h4>
-    <h2>Have an idea or project? Let's talk</h2>
-    <a href="#" class="btn-contact"><span data-hover="LET'S BE IN TOUCH">LET'S BE IN TOUCH</span></a>
-    <div class="footer-bar"> <span class="pull-left">© 2021 Anchor - All rights reserved.</span> <span class="pull-right">Site created by <a href="#">Themezinho</a></span> </div>
-    <!-- end footer-bar -->
-  </footer>
+  <?php include 'includes/footer.php' ?>
   <!-- end footer -->
   <audio id="link" src="audio/link.mp3" preload="auto"></audio>
 

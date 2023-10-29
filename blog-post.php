@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from themezinho.net/anchor/journal-post.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Oct 2023 05:36:27 GMT -->
+<!-- Mirrored from themezinho.net/anchor/blog-post.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Oct 2023 05:36:27 GMT -->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -339,5 +339,5 @@
 <script src="js/scripts.js"></script>
 </body>
 
-<!-- Mirrored from themezinho.net/anchor/journal-post.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Oct 2023 05:36:27 GMT -->
+<!-- Mirrored from themezinho.net/anchor/blog-post.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Oct 2023 05:36:27 GMT -->
 </html>

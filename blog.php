@@ -107,9 +107,9 @@
     <div class="post-content">
       <div class="author"> <img src="images/team01.jpg" alt="Image"> <small>by <strong>Themezinho</strong></small> </div>
       <small>Posted 20 July 2021 | <a href="#">Web</a>, <a href="#">UI-UX</a>, <a href="#">Coding</a></small>
-      <h3><a href="#">Fashion fades only style remains in the same</a></h3>
+      <h3><a href="blog-post.php">Fashion fades only style remains in the same</a></h3>
       <p>Our developments are designed to elevate student living beyond just an accommodation space.</p>
-      <a href="journal-post.html" class="link">READ MORE</a> </div>
+      <a href="blog-post.php" class="link">READ MORE</a> </div>
     <!-- end post-content --> 
   </figure>
 </div>
@@ -123,9 +123,9 @@
           <div class="author"> <img src="images/team01.jpg" alt="Image"> <small>by <strong>Themezinho</strong></small> </div>
         </figure>
         <div class="post-content"> <small>Posted 20 July 2021 | <a href="#">Web</a>, <a href="#">UI-UX</a>, <a href="#">Coding</a></small>
-          <h3><a href="#">Fashion fades only style remains in the same</a></h3>
+          <h3><a href="blog-post.php">Fashion fades only style remains in the same</a></h3>
           <p>Our developments are designed to elevate student living beyond just an accommodation space.</p>
-          <a href="journal-post.html" class="link">READ MORE</a> </div>
+          <a href="blog-post.php" class="link">READ MORE</a> </div>
         <!-- end post-content --> 
       </div>
       <!-- end post --> 
@@ -137,9 +137,9 @@
           <div class="author"> <img src="images/team03.jpg" alt="Image"> <small>by <strong>Themezinho</strong></small> </div>
         </figure>
         <div class="post-content"> <small>Posted 20 July 2021 | <a href="#">Web</a>, <a href="#">UI-UX</a>, <a href="#">Coding</a></small>
-          <h3><a href="#">The new Anki Vector robot is smart </a></h3>
+          <h3><a href="blog-post.php">The new Anki Vector robot is smart </a></h3>
           <p>Our developments are designed to elevate student living beyond just an accommodation space.</p>
-          <a href="journal-post.html" class="link">READ MORE</a> </div>
+          <a href="blog-post.php" class="link">READ MORE</a> </div>
         <!-- end post-content --> 
       </div>
       <!-- end post --> 
@@ -151,9 +151,9 @@
           <div class="author"> <img src="images/team04.jpg" alt="Image"> <small>by <strong>Themezinho</strong></small> </div>
         </figure>
         <div class="post-content"> <small>Posted 20 July 2021 | <a href="#">Web</a>, <a href="#">UI-UX</a>, <a href="#">Coding</a></small>
-          <h3><a href="#">Fashion fades only style remains in the same</a></h3>
+          <h3><a href="blog-post.php">Fashion fades only style remains in the same</a></h3>
           <p>Our developments are designed to elevate student living beyond just an accommodation space.</p>
-          <a href="journal-post.html" class="link">READ MORE</a> </div>
+          <a href="blog-post.php" class="link">READ MORE</a> </div>
         <!-- end post-content --> 
       </div>
       <!-- end post --> 
@@ -165,9 +165,9 @@
           <div class="author"> <img src="images/team05.jpg" alt="Image"> <small>by <strong>Themezinho</strong></small> </div>
         </figure>
         <div class="post-content"> <small>Posted 20 July 2021 | <a href="#">Web</a>, <a href="#">UI-UX</a>, <a href="#">Coding</a></small>
-          <h3><a href="#">How We Went From Working at Greenpark</a></h3>
+          <h3><a href="blog-post.php">How We Went From Working at Greenpark</a></h3>
           <p>Our developments are designed to elevate student living beyond just an accommodation space.</p>
-          <a href="journal-post.html" class="link">READ MORE</a> </div>
+          <a href="blog-post.php" class="link">READ MORE</a> </div>
         <!-- end post-content --> 
       </div>
       <!-- end post --> 
@@ -179,9 +179,9 @@
           <div class="author"> <img src="images/team02.jpg" alt="Image"> <small>by <strong>Themezinho</strong></small> </div>
         </figure>
         <div class="post-content"> <small>Posted 20 July 2021 | <a href="#">Web</a>, <a href="#">UI-UX</a>, <a href="#">Coding</a></small>
-          <h3><a href="#">Fashion fades only style remains in the same</a></h3>
+          <h3><a href="blog-post.php">Fashion fades only style remains in the same</a></h3>
           <p>Our developments are designed to elevate student living beyond just an accommodation space.</p>
-          <a href="journal-post.html" class="link">READ MORE</a> </div>
+          <a href="blog-post.php" class="link">READ MORE</a> </div>
         <!-- end post-content --> 
       </div>
       <!-- end post --> 

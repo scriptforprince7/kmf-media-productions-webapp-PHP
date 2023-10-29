@@ -7,7 +7,7 @@
         </ul> -->
     </li>
     <li><a href="about-us.php">About Us</a> </li>
-    <li><a href="showcase-four-cols.html">Showcase</a>
+    <li><a href="services.php">Services</a>
         <!-- <ul class="dropdown">
             <li><a href="showcase-two-cols.html">TWO COLS</a></li>
             <li><a href="showcase-three-cols.html">THREE COLS</a></li>

@@ -45,9 +45,9 @@
 <body>
   <div class="preloader"> <img src="images/preloader.gif" alt="Image">
     <ul class="text-rotater">
-      <li>Hangin there</li>
-      <li>Still loading</li>
-      <li>Almost done</li>
+      <li>Tuning Up...</li>
+      <li>Melody Building...</li>
+      <li>Rocking On...</li>
     </ul>
   </div>
   <!-- end preloader -->
@@ -66,8 +66,9 @@
             <div class="inner">
               <h5 data-swiper-parallax="-600">CUSTOM ELEMENTS</h5>
               <h2 data-swiper-parallax="-400">Music Unleashed, Creativity Unbound</h2>
-              <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec.</p>
+              <p data-swiper-parallax="-200">
+                Our mission is to unleash the boundless potential of music, transcending boundaries and genres.
+              </p>
               <a href="#" class="link">DISCOVER NOW</a><a href="videos/video.mp4" class="video-link" data-fancybox data-width="640" data-height="360">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 104 104" enable-background="new 0 0 104 104" xml:space="preserve">
                   <circle class="video-play-circle" fill="none" stroke="#fff" stroke-width="4" stroke-miterlimit="10" cx="52" cy="52" r="50" />
@@ -81,8 +82,9 @@
             <div class="inner">
               <h5 data-swiper-parallax="-600">USER INTERFACE</h5>
               <h2 data-swiper-parallax="-400">Turning Sound into Stories</h2>
-              <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec.</p>
+              <p data-swiper-parallax="-200">
+                We specialize in turning the language of sound into captivating stories that resonate with your audience.
+              </p>
               <a href="#" class="link">DISCOVER NOW</a>
             </div>
             <!-- end inner -->
@@ -92,8 +94,9 @@
             <div class="inner">
               <h5 data-swiper-parallax="-600">EASY TO USE</h5>
               <h2 data-swiper-parallax="-400">Melody in Every Click</h2>
-              <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec.</p>
+              <p data-swiper-parallax="-200">
+                Discover the harmony where melodies and technology converge, creating music with every click.
+              </p>
               <a href="#" class="link">DISCOVER NOW</a>
             </div>
             <!-- end inner -->
@@ -123,8 +126,8 @@
                 <!-- end bg-color -->
                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
                 <!-- end brand -->
-                <h5>Digital Creative Works</h5>
-                <small>WEB, UI-UX, CODING</small>
+                <h5>Music Marketing Services</h5>
+                <small>Explore our comprehensive music marketing services, designed to boost your visibility and reach your target audience.</small>
               </a> </figcaption>
           </figure>
         </div>
@@ -136,8 +139,8 @@
                 <!-- end bg-color -->
                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
                 <!-- end brand -->
-                <h5>Coddle Mobile App</h5>
-                <small>IOS, APP, CODEX</small>
+                <h5>Google Ads Mastery</h5>
+                <small>Harness the power of Google Ads with our expert team to amplify your online presence and music promotions.</small>
               </a></figcaption>
           </figure>
         </div>
@@ -149,8 +152,8 @@
                 <!-- end bg-color -->
                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
                 <!-- end brand -->
-                <h5>Coddle Mobile App</h5>
-                <small>VIDEO, WEB, UI-UX</small>
+                <h5>Spotify Success</h5>
+                <small>Elevate your Spotify presence with our tailored promotion strategies, placing your music on top playlists and gaining more streams.</small>
               </a></figcaption>
           </figure>
         </div>
@@ -162,8 +165,8 @@
                 <!-- end bg-color -->
                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
                 <!-- end brand -->
-                <h5>Coddle Mobile App</h5>
-                <small>VIDEO, OTHERS</small>
+                <h5>Creative Brilliance</h5>
+                <small>We create captivating content, from stunning visuals to compelling ad copy, ensuring your music makes a lasting impression.</small>
               </a> </figcaption>
           </figure>
         </div>
@@ -175,8 +178,8 @@
                 <!-- end bg-color -->
                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
                 <!-- end brand -->
-                <h5>Coddle Mobile App</h5>
-                <small>ANDROID, APP</small>
+                <h5>Influencer Partnerships</h5>
+                <small>Collaborate with industry influencers to connect with an engaged audience and amplify your music's impact.</small>
               </a></figcaption>
           </figure>
         </div>
@@ -188,8 +191,8 @@
                 <!-- end bg-color -->
                 <div class="brand"> <img src="images/logo-brand.png" alt="Image"> </div>
                 <!-- end brand -->
-                <h5>Coddle Mobile App</h5>
-                <small>AD, PRINT, DESIGN</small>
+                <h5>Seamless Music Distribution</h5>
+                <small>Simplify the process of getting your music to your fans with our comprehensive distribution services.</small>
               </a> </figcaption>
           </figure>
         </div>
@@ -199,41 +202,52 @@
       <div class="icon-features">
         <div class="container">
           <div class="row">
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image"> <small>UI-UX
-                DESIGN</small>
-
-              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image"> <small>
+                Meta Ads
+              </small>
+              <p>
+                Our expertise in Meta Ads (Facebook and Instagram) enhances your reach and engagement.
+              </p>
               <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image"> <small>DEVELOPMENT</small>
-
-              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image">
+              <small>YouTube Promotions</small>
+              <p>
+                Elevate your YouTube presence and increase views with our promotional strategies.
+              </p>
               <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image"> <small>MARKETTING</small>
-
-              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image">
+              <small>Reels Promotions</small>
+              <p>
+                Utilize Instagram Reels for music promotion and capturing audience attention.
+              </p>
               <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image"> <small>UI-UX
-                DESIGN</small>
-
-              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image">
+              <small>Artist Branding</small>
+              <p>
+                Craft a unique and compelling brand identity that resonates with your audience.
+              </p>
               <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image"> <small>DEVELOPMENT</small>
-
-              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image">
+              <small>Email Marketing</small>
+              <p>
+                Engage your audience through strategic email marketing campaigns.
+              </p>
               <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image"> <small>MARKETTING</small>
-
-              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image">
+              <small>Content Creation</small>
+              <p>
+                We create captivating content to tell your music's story and connect with fans.
+              </p>
               <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
@@ -263,10 +277,11 @@
         <!-- end inner -->
         <div class="inner bg1 wow fadeInRight">
           <div class="contenty">
-            <h5>NEXT GENERATION</h5>
-            <h2>Make yourself at home...</h2>
-            <p>Here at Anchor, you will be surrounded by like-minded people. You'll have your own individual apartment
-              and facilities which are inspired by the luxurious life you want to live.</p>
+            <h5>ELEVATING MUSIC</h5>
+            <h2>Welcome to Our Harmony...</h2>
+            <p>
+              At <i>KMF Media, </i> you'll be part of a community that shares your passion. Enjoy your private studio and facilities designed to amplify the musical life you envision.
+            </p>
             <a href="#"><span data-hover="FIND OUT MORE">FIND OUT MORE</span></a>
           </div>
           <!-- end content -->
@@ -278,8 +293,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-5 col-sm-12 col-12 wow fadeIn">
-              <h5>OUR AWARDS</h5>
-              <h2>We proud of our digital kids</h2>
+              <h5>RECOGNITION & ACCOLADES</h5>
+              <h2>Celebrating Digital Excellence...</h2>
             </div>
             <!-- end col-5 -->
             <div class="col-md-7 col-sm-12 col-12 wow fadeIn" data-wow-delay="0.2s">
