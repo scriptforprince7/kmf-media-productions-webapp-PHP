@@ -25,16 +25,8 @@
                 color: white;
             }
         </style>
-        
-        
-        
-        
-        
-        
-        
-        
-        
     </li>
+    <li><a href="">Portfolio</a> </li>
     <li><a href="blog.php">Blog</a> </li>
     <li><a href="contact-us.php">Contact Us</a> </li>
 
