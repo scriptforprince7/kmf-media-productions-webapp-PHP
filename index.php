@@ -5,26 +5,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="format-detection" content="telephone=no">
-  <title>Anchor | Freelancer & Creative Agency Portfolio</title>
+  <title>KMF Media | Music Production Company</title>
   <meta name="author" content="Themezinho">
-  <meta name="description" content="Anchor | Freelancer & Creative Agency Portfolio">
+  <meta name="description" content="KMF Media | Music Production Company">
   <meta name="keywords" content="creative, works, showcase, portfolio, highlight, projects, parallax, agency, digital, studio, css, animation, transition, svg, html, css">
 
   <!-- SOCIAL MEDIA META -->
-  <meta property="og:description" content="Anchor | Freelancer & Creative Agency Portfolio">
-  <meta property="og:image" content="http://www.themezinho.net/Anchor/preview.png">
-  <meta property="og:site_name" content="Anchor">
-  <meta property="og:title" content="Anchor">
+  <meta property="og:description" content="KMF Media | Music Production Company">
+  <meta property="og:site_name" content="KMF Media">
+  <meta property="og:title" content="KMF Media">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://www.themezinho.net/Anchor">
+  <!--  -->
 
   <!-- TWITTER META -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@Anchor">
-  <meta name="twitter:creator" content="@Anchor">
-  <meta name="twitter:title" content="Anchor">
-  <meta name="twitter:description" content="Anchor | Freelancer & Creative Agency Portfolio">
-  <meta name="twitter:image" content="http://www.themezinho.net/Anchor/preview.png">
+  <meta name="twitter:site" content="@KMFMedia">
+  <meta name="twitter:creator" content="@KMFMedia">
+  <meta name="twitter:title" content="KMF Media">
+  <meta name="twitter:description" content="KMF Media | Music Production Company">
+  <!--  -->
 
   <!-- FAVICON FILES -->
   <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
@@ -55,41 +54,7 @@
   <div class="transition-overlay"></div>
   <!-- end transition-overlay -->
   <main>
-    <ul class="hamburger-navigation">
-      <li><a href="index-2.html">Home</a>
-        <ul class="dropdown">
-          <li><a href="index-video.html">VIDEO BG</a></li>
-          <li><a href="index-mouse-split.html">MOUSE SPLIT</a></li>
-          <li><a href="index-animation.html">ANIMATION</a></li>
-        </ul>
-      </li>
-      <li><a href="anchor.html">Anchor</a> </li>
-      <li><a href="showcase-four-cols.html">Showcase</a>
-        <ul class="dropdown">
-          <li><a href="showcase-two-cols.html">TWO COLS</a></li>
-          <li><a href="showcase-three-cols.html">THREE COLS</a></li>
-          <li><a href="showcase-four-cols.html">FOUR COLS</a></li>
-          <li><a href="showcase-five-cols.html">FIVE COLS</a></li>
-        </ul>
-      </li>
-      <li><a href="journal.html">Journal<span>BETA</span></a> </li>
-      <li><a href="say-hello.php">Say Hello</a> </li>
-    </ul>
-    <!-- end hamburger-navigation -->
-    <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
-      <path class="shape-overlays__path" d=""></path>
-      <path class="shape-overlays__path" d=""></path>
-      <path class="shape-overlays__path" d=""></path>
-    </svg>
     <?php include "includes/header.php" ?>
-
-    <ul class="social-bar">
-      <li><a href="#">facebook</a></li>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">YouTube</a></li>
-      <li><a href="#">Instagram</a></li>
-    </ul>
-
     <section class="slider">
       <div class="video-bg">
         <video src="videos/video2.mp4" loop muted autoplay></video>
@@ -147,54 +112,6 @@
 
       <div class="scroll-down"><span></span></div>
     </section>
-
-
-    <!-- <section class="slider">
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide bg-image" data-background="images/hero1.jpg" data-stellar-background-ratio="0.5">
-            <div class="inner">
-              <h5 data-swiper-parallax="-600">CUSTOM ELEMENTS</h5>
-              <h2 data-swiper-parallax="-400">Being a part of our social </h2>
-              <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec.</p>
-              <a href="#" class="link">DISCOVER NOW</a><a href="videos/video.mp4" class="video-link" data-fancybox
-                data-width="640" data-height="360">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                  y="0px" viewBox="0 0 104 104" enable-background="new 0 0 104 104" xml:space="preserve">
-                  <circle class="video-play-circle" fill="none" stroke="#fff" stroke-width="4" stroke-miterlimit="10"
-                    cx="52" cy="52" r="50" />
-                </svg>
-                <span class="video-play-outline"></span> </a>
-            </div>
-          </div>
-          <div class="swiper-slide bg-image" data-background="images/hero2.jpg" data-stellar-background-ratio="0.5">
-            <div class="inner">
-              <h5 data-swiper-parallax="-600">USER INTERFACE</h5>
-              <h2 data-swiper-parallax="-400">Custom design for users</h2>
-              <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec.</p>
-              <a href="#" class="link">DISCOVER NOW</a>
-            </div>
-          </div>
-          <div class="swiper-slide bg-image" data-background="images/hero3.jpg" data-stellar-background-ratio="0.5">
-            <div class="inner">
-              <h5 data-swiper-parallax="-600">EASY TO USE</h5>
-              <h2 data-swiper-parallax="-400">Setting easy admin system </h2>
-              <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam
-                dictum mattis velit, sit amet faucibus felis iaculis nec.</p>
-              <a href="#" class="link">DISCOVER NOW</a>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"><span>PREV</span><img src="images/arrow-left.svg" alt="Image"></div>
-        <span class="swiper-button-line"></span>
-        <div class="swiper-button-next"><span>NEXT</span><img src="images/arrow-right.svg" alt="Image"></div>
-      </div>
-      <div class="scroll-down"><span></span></div>
-    </section> -->
-    <!-- end slider -->
     <section class="content">
       <div class="works four-cols">
         <div class="grid-sizer"></div>
@@ -325,6 +242,18 @@
         </div>
         <!-- end container -->
       </div>
+      <section class="youtube">
+        <div class="">
+          <iframe width="80%" height="400px" src="https://www.youtube.com/embed/DIX8ePuP-ZQ?si=UwS3Kn8kSm82cy0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </section>
+      <style>
+        .youtube {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      </style>
       <!-- end icon-features -->
       <div class="side-image-content">
         <div class="inner">
