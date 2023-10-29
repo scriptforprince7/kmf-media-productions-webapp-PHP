@@ -7,24 +7,24 @@
   <meta name="format-detection" content="telephone=no">
   <title>KMF Media | Music Production Company</title>
   <meta name="author" content="Themezinho">
-  <meta name="description" content="KMF Media | Music Production Company">
+  <meta name="description" content="Anchor | Freelancer & Creative Agency Portfolio">
   <meta name="keywords" content="creative, works, showcase, portfolio, highlight, projects, parallax, agency, digital, studio, css, animation, transition, svg, html, css">
 
   <!-- SOCIAL MEDIA META -->
-  <meta property="og:description" content="KMF Media | Music Production Company">
+  <meta property="og:description" content="Anchor | Freelancer & Creative Agency Portfolio">
   <meta property="og:image" content="http://www.themezinho.net/Anchor/preview.png">
-  <meta property="og:site_name" content="KMF Media">
-  <meta property="og:title" content="KMF Media">
+  <meta property="og:site_name" content="Anchor">
+  <meta property="og:title" content="Anchor">
   <meta property="og:type" content="website">
-  
+  <meta property="og:url" content="http://www.themezinho.net/Anchor">
 
   <!-- TWITTER META -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@KMFMedia">
-  <meta name="twitter:creator" content="@KMFMedia">
-  <meta name="twitter:title" content="KMF Media">
-  <meta name="twitter:description" content="KMF Media | Music Production Company">
-  
+  <meta name="twitter:site" content="@Anchor">
+  <meta name="twitter:creator" content="@Anchor">
+  <meta name="twitter:title" content="Anchor">
+  <meta name="twitter:description" content="Anchor | Freelancer & Creative Agency Portfolio">
+  <meta name="twitter:image" content="http://www.themezinho.net/Anchor/preview.png">
 
   <!-- FAVICON FILES -->
   <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
@@ -63,7 +63,7 @@
           <li><a href="index-animation.html">ANIMATION</a></li>
         </ul>
       </li>
-      <li><a href="about-us.php">About Us</a> </li>
+      <li><a href="anchor.html">Anchor</a> </li>
       <li><a href="showcase-four-cols.html">Showcase</a>
         <ul class="dropdown">
           <li><a href="showcase-two-cols.html">TWO COLS</a></li>
@@ -73,8 +73,7 @@
         </ul>
       </li>
       <li><a href="journal.html">Journal<span>BETA</span></a> </li>
-          <li><a href="contact-us.php">Contact Us</a> </li>
-
+      <li><a href="contact-us.php">Say Hello</a> </li>
     </ul>
     <!-- end hamburger-navigation -->
     <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -96,7 +95,7 @@
       </div>
       <!-- end video-bg -->
       <div class="inner">
-        <h2>We'd love to hear from you to start your project.</h2>
+        <h2>Let's create music magic together! </h2>
       </div>
       <!-- end inner -->
     </section>
@@ -107,21 +106,26 @@
           <div class="row justify-content-md-center">
             <div class="col-12 wow fadeInUp">
               <div class="titles">
-                <h5>Say Hello</h5>
+                <!-- <h5>Say Hello</h5> -->
                 <h2>Contact Us</h2>
                 <p>We’d love to hear from you. Drop us a line and we’ll get back to you as soon as possible.</p>
               </div>
               <!-- end titles -->
             </div>
+            
             <!-- end col-12 -->
             <div class="col-md-6 col-sm-6 col-12 wow fadeIn">
               <div class="address">
-                <h4>KIEV OFFICE</h4>
-                <p>+ (0)520 111 5000<br>
-                  <a href="#">kiev-ua@KMFMedia.ua</a><br>
-                  228 Cardigan Road, Leeds, LS6 1FN
+                <h4>OFFICE</h4>
+                <p>+91 6267700575<br>
+                  <a href="#">Kmfmedia001@gmail.com</a><br>
+                  Wazir nagar,South extension 1<br>
+                  Delhi,110003
+
                 </p>
-                <a data-fancybox="" data-src="#map" href="javascript:;">
+
+
+                <a data-fancybox="" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.962267824404!2d77.22341357432548!3d28.570895736879123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce25b0a05dbb1%3A0x534ad6c98899612b!2sSouth%20Extension%20I%2C%20Wazir%20Nagar%2C%20South%20Extension%20I%2C%20New%20Delhi%2C%20Delhi%20110003!5e0!3m2!1sen!2sin!4v1698402020019!5m2!1sen!2sin" href="javascript:;">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                     <path d="M12 22.31l-6.38-8.2A7.7 7.7 0 0 1 11.7 1.69h.6a7.7 7.7 0 0 1 6.08 12.42zm-.3-18.62A5.7 5.7 0 0 0 6 9.39a5.77 5.77 0 0 0 1.2 3.5l4.8 6.17 4.8-6.17a5.77 5.77 0 0 0 1.2-3.5 5.7 5.7 0 0 0-5.7-5.7z">
                     </path>
@@ -131,12 +135,14 @@
               </div>
               <!-- end address -->
             </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.962267824404!2d77.22341357432548!3d28.570895736879123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce25b0a05dbb1%3A0x534ad6c98899612b!2sSouth%20Extension%20I%2C%20Wazir%20Nagar%2C%20South%20Extension%20I%2C%20New%20Delhi%2C%20Delhi%20110003!5e0!3m2!1sen!2sin!4v1698402020019!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+
             <!-- end col-3 -->
-            <div class="col-md-6 col-sm-6 col-12 wow fadeIn">
+            <!-- <div class="col-md-6 col-sm-6 col-12 wow fadeIn">
               <div class="address">
                 <h4>MOSCOW OFFICE</h4>
                 <p>+ (0)330 111 5200<br>
-                  <a href="#">moscow-ru@KMFMedia.ru</a><br>
+                  <a href="#">moscow-ru@anchor.ru</a><br>
                   228 Cardigan Road, Leeds, LS6 1FN<br>
                 </p>
                 <a data-fancybox="" data-src="#map" href="javascript:;">
@@ -146,7 +152,7 @@
                     <circle cx="12" cy="9.69" r="2"></circle>
                   </svg>
                   GOOGLE MAPS</a>
-              </div>
+              </div> -->
               <!-- end address -->
             </div>
             <!-- end col-3 -->

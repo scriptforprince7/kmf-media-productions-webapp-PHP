@@ -7,16 +7,36 @@
         </ul> -->
     </li>
     <li><a href="about-us.php">About Us</a> </li>
-    <li><a href="services.php">Services</a>
-        <!-- <ul class="dropdown">
-            <li><a href="showcase-two-cols.html">TWO COLS</a></li>
-            <li><a href="showcase-three-cols.html">THREE COLS</a></li>
-            <li><a href="showcase-four-cols.html">FOUR COLS</a></li>
-            <li><a href="showcase-five-cols.html">FIVE COLS</a></li>
-        </ul> -->
+    <li><a href="service.php">What We Do?</a>
+        <ul class="dropdown">
+            <li><a href="service.php">Music marketing</a></li>
+            <li><a href="service.php">Marketing consultation</a></li>
+            <li><a href="service.php">Press releases</a></li>
+            <li><a href="service.php">Google ads</a></li>
+            <li><a href="service.php">Meta ads</a></li>
+            <li><a href="service.php">Spotify promotions</a></li>
+            <li><a href="service.php">Youtube promotions</a></li>
+            <li><a href="service.php">Influencer marketing</a></li>
+            <li><a href="service.php">Reels promotions</a></li>
+            <li><a href="service.php">Music distribution</a></li>
+        </ul>
+        <style>
+            .dropdown a {
+                color: white;
+            }
+        </style>
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </li>
     <li><a href="blog.php">Blog</a> </li>
-        <li><a href="contact-us.php">Contact Us</a> </li>
+    <li><a href="contact-us.php">Contact Us</a> </li>
 
 </ul>
 <!-- end hamburger-navigation -->
