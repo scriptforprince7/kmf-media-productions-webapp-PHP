@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="format-detection" content="telephone=no">
-<title>KMF Media | Music Production Company</title>
+<title>KMF Media | Music Production Company | Saurabh </title>
 <meta name="author" content="Themezinho">
 <meta name="description" content="KMF Media | Music Production Company">
 <meta name="keywords" content="creative, works, showcase, portfolio, highlight, projects, parallax, agency, digital, studio, css, animation, transition, svg, html, css">
