@@ -97,8 +97,21 @@
            <div class="side-image-content">
         <div class="inner">
           <figure class="reveal-effect se2-white wow main-image" data-aos="slide-effect"><img src="images/big-saurav.jpg" alt="Image"></figure>
-          <!--<figure class="reveal-effect se2-white wow sub-image" data-aos="slide-effect"><img src="images/image02.jpg" alt="Image"></figure>-->
+          <figure class="reveal-effect se2-white wow sub-image phone-hid" data-aos="slide-effect"><img src="images/big-saurav.jpg" alt="Image"></figure>
         </div>
+        <style>
+        .phone-hid{
+            display: none;
+        }
+        
+         @media only screen and (max-width: 600px) {
+        
+        .phone-hid {
+            display: block; 
+        }
+    }
+    
+        </style>
         <div class="inner bg1 wow fadeInRight">
           <div class="contenty">
             <h5>Founder & CEO</h5>
