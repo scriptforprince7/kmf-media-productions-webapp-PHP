@@ -121,11 +121,11 @@
           <div class="row">
             <div class="col-md-4 col-sm-12 wow fadeInUp">
               <div class="">
-                <figure><img src="images/aman.jpg" alt="Image">
+                <figure><img src="images/co-founder.jpg" alt="Image">
                 </figure>
-                <div class="post-content"> <small>Manager, Graphic Designer</small>
-                  <h3>Aman Nayak</h3>
-                  <p><i>"In a world of pixels and passion, our graphic designer crafts stories that speak louder than words. Explore the artistry! 🖌️✨ #DesignAlchemy"<</i></p>
+                <div class="post-content"> <small>Co-Founder</small>
+                  <h3>Naman Kaushal</h3>
+                  <p><i> "Guiding our ship through the digital seas, our co-founder is the visionary captain, steering us towards innovation and success. Chart the course! 🚀🌐 #LeadershipUnleashed"</i></p>
                 </div>
                 <!-- end post-content --> 
               </div>
@@ -147,11 +147,11 @@
             <!-- end col-6 -->
             <div class="col-md-4 col-sm-12 wow fadeInUp">
               <div class="">
-                <figure><img src="images/co-founder.jpg" alt="Image">
+                <figure><img src="images/aman.jpg" alt="Image">
                 </figure>
-                <div class="post-content"> <small>Co- Founder</small>
-                  <h3>Naman Kaushal</h3>
-                  <p><i> "Guiding our ship through the digital seas, our co-founder is the visionary captain, steering us towards innovation and success. Chart the course! 🚀🌐 #LeadershipUnleashed"</i></p>
+                <div class="post-content"> <small>Manager, Graphic Designer</small>
+                  <h3>Aman Nayak</h3>
+                  <p><i>"In a world of pixels and passion, our graphic designer crafts stories that speak louder than words. Explore the artistry! 🖌️✨ #DesignAlchemy"</i></p>
                 </div>
                 <!-- end post-content --> 
               </div>
