@@ -365,6 +365,7 @@ footer {
   opacity: 0;
 }
 .header {
+  /* background-color: white; */
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transform: all 1s ease;
@@ -407,7 +408,7 @@ footer {
 }
 .header .hamburger {
   float: right;
-  margin-top: -5px;
+  margin-top: 20px;
 }
 .header .equalizer {
   float: right;

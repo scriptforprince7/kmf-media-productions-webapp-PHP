@@ -41,9 +41,32 @@
     <link rel="stylesheet" href="css/fancybox.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    
+    <div id="whatsapp-icon">
+    <a href="#" onclick="sendWhatsAppMessage()">
+      <img src="whats-app.png" alt="WhatsApp Icon">
+    </a>
+  </div>
+  
+  <style>
+   #whatsapp-icon {
+      position: fixed;
+      right: 8%;
+      bottom: 20px; /* Adjust the distance from the bottom as needed */
+      transform: translateX(50%);
+      z-index: 999; /* Ensure the icon appears above other elements */
+      cursor: pointer;
+    }
+
+    #whatsapp-icon img {
+      height: 80px; /* Set the desired height */
+      width: 80px; /* Set the desired width */
+    }
+  </style>
 
     <style>
         @charset "UTF-8";
@@ -504,38 +527,27 @@
         <section class="slider">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide bg-image" data-background="images/hero1.jpg" data-stellar-background-ratio="0.5">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HHSK9jjuSTI?si=9L75riBYS7qnGTMH&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <!-- <div class="inner"> -->
-                        <!-- <h5 data-swiper-parallax="-600">CUSTOM ELEMENTS</h5>
-                            <h2 data-swiper-parallax="-400">Being a part of our social </h2>
-                            <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec.</p>
-                            <a href="#" class="link">DISCOVER NOW</a><a href="videos/video.mp4" class="video-link" data-fancybox data-width="640" data-height="360">
-                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 104 104" enable-background="new 0 0 104 104" xml:space="preserve">
-                                    <circle class="video-play-circle" fill="none" stroke="#fff" stroke-width="4" stroke-miterlimit="10" cx="52" cy="52" r="50" />
-                                </svg>
-                                <span class="video-play-outline"></span> </a> -->
-                        <!-- </div> -->
+                    <!--<div class="swiper-slide bg-image" data-background="images/hero1.jpg" data-stellar-background-ratio="0.5">-->
+                    <!--    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HHSK9jjuSTI?si=9L75riBYS7qnGTMH&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+                    <!--</div>-->
+                    <!-- end swiper-slide -->
+                    <div class="swiper-slide bg-image" data-background="banner-images/d/youtube-promotions1.jpg" data-stellar-background-ratio="0.5">
+                        <!--<div class="inner">-->
+                        <!--    <h5 data-swiper-parallax="-600">USER INTERFACE</h5>-->
+                        <!--    <h2 data-swiper-parallax="-400">Custom design for users</h2>-->
+                        <!--    <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec.</p>-->
+                        <!--    <a href="#" class="link">DISCOVER NOW</a>-->
+                        <!--</div>-->
                         <!-- end inner -->
                     </div>
                     <!-- end swiper-slide -->
-                    <div class="swiper-slide bg-image" data-background="https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-stellar-background-ratio="0.5">
-                        <div class="inner">
-                            <h5 data-swiper-parallax="-600">USER INTERFACE</h5>
-                            <h2 data-swiper-parallax="-400">Custom design for users</h2>
-                            <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec.</p>
-                            <a href="#" class="link">DISCOVER NOW</a>
-                        </div>
-                        <!-- end inner -->
-                    </div>
-                    <!-- end swiper-slide -->
-                    <div class="swiper-slide bg-image" data-background="https://images.pexels.com/photos/1327430/pexels-photo-1327430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-stellar-background-ratio="0.5">
-                        <div class="inner">
-                            <h5 data-swiper-parallax="-600">EASY TO USE</h5>
-                            <h2 data-swiper-parallax="-400">Setting easy admin system </h2>
-                            <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec.</p>
-                            <a href="#" class="link">DISCOVER NOW</a>
-                        </div>
+                    <div class="swiper-slide bg-image" data-background="banner-images/d/youtube-promotions1.jpg" data-stellar-background-ratio="0.5">
+                        <!--<div class="inner">-->
+                        <!--    <h5 data-swiper-parallax="-600">EASY TO USE</h5>-->
+                        <!--    <h2 data-swiper-parallax="-400">Setting easy admin system </h2>-->
+                        <!--    <p data-swiper-parallax="-200">Lorem ipsum dolor sit amet, <u>consectetur adipiscing</u> elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec.</p>-->
+                        <!--    <a href="#" class="link">DISCOVER NOW</a>-->
+                        <!--</div>-->
                         <!-- end inner -->
                     </div>
                     <!-- end swiper-slide -->
@@ -559,48 +571,976 @@
                 <div class="container">
                     <!-- end navbar -->
                     <div class="project" id="client">
-                        <h2>Music Marketing</h2>
+                      <span class="whats-app" id="whatsapp-message"><h2>Youtube Promotions</h2></span>  
                         <p class="lead">
-                            Entice Energy is a startup that aims to supply energy (starting with gas) to domestic household across the UK.
+                           <h3 style="font-size:40px;">Crafting engaging promotional strategies to boost visibility on the world's largest video platform.</h3> 
                         </p>
                         <p>
-                            So, the height and width is not fixed, and it is calculated dynamically according to the diminutions of the window.
-                            Under that div, there is another one that has the ID header "navigation bar", the header is initially positioned relatively under div.fullscreen - however, I am trying to position it as Fixed when the top of the #header reaches the top of the browser window.
+                           gnite your brand's presence on the world's largest video platform with our YouTube Promotions service. From captivating ad campaigns to strategic audience targeting, we'll amplify your message, driving views, engagement, and subscriber growth.
 
-                            So here is what I am playing around, it toggles the Fixed style, but it does not toggle it at the right place...
+                            Ready to make waves on YouTube? Our Promotions service is designed to boost your visibility, increase video views, and foster audience connection. Let your content shine with strategic campaigns that resonate.
                         </p>
 
                         <section class="content">
                             <div class="about-studio">
-                                <figure class="hero-image wow fadeInUp"> <img src="images/music-01.png" alt="Image"></figure>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-4 wow fadeInLeft">
-                                            <h5>KMF Media Promotions</h5>
-                                            <p class="lead"> Setting a financial operation apart from the crowd </p>
-                                            <a href="#" class="link">support.anchor.com</a>
-                                        </div>
+                                <figure class="hero-image wow fadeInUp"> <img src="inner-images/youtube-promotion.jpg" alt="Image"></figure>
+                                <!--<div class="container">-->
+                                <!--    <div class="row">-->
+                                <!--        <div class="col-md-4 wow fadeInLeft">-->
+                                <!--            <h5>KMF Media Promotions</h5>-->
+                                <!--            <p class="lead"> Setting a financial operation apart from the crowd </p>-->
+                                <!--            <a href="#" class="link">support.anchor.com</a>-->
+                                <!--        </div>-->
                                         <!-- end col-4 -->
-                                        <div class="col-md-8 wow fadeInRight">
-                                            <p class="lead">The only fear they entertain of attack is from the green <u>Martians</u> or some demented
-                                                red man, as all <u>Barsoomians</u> realize that the very existence of every form of life of Mars is
-                                                dependent upon the uninterrupted working of this plant.</p>
-                                            <p>As we approached the palace I could see through the great windows of the first floor into the
-                                                brilliantly illuminated audience chamber of <strong>Than Kosis</strong>. The immense hall was crowded
-                                                with nobles and their women, as though some important function was in progress. There was not a guard in
-                                                sight without the palace, due, I presume, to the fact that the city and palace walls were considered
-                                                impregnable, and so I came close and peered within.</p>
-                                            <p>The immense hall was crowded with <u>nobles</u> and <u>their women</u>, as though some important
-                                                function was in progress. </p>
-                                        </div>
+                                <!--        <div class="col-md-8 wow fadeInRight">-->
+                                <!--            <p class="lead">The only fear they entertain of attack is from the green <u>Martians</u> or some demented-->
+                                <!--                red man, as all <u>Barsoomians</u> realize that the very existence of every form of life of Mars is-->
+                                <!--                dependent upon the uninterrupted working of this plant.</p>-->
+                                <!--            <p>As we approached the palace I could see through the great windows of the first floor into the-->
+                                <!--                brilliantly illuminated audience chamber of <strong>Than Kosis</strong>. The immense hall was crowded-->
+                                <!--                with nobles and their women, as though some important function was in progress. There was not a guard in-->
+                                <!--                sight without the palace, due, I presume, to the fact that the city and palace walls were considered-->
+                                <!--                impregnable, and so I came close and peered within.</p>-->
+                                <!--            <p>The immense hall was crowded with <u>nobles</u> and <u>their women</u>, as though some important-->
+                                <!--                function was in progress. </p>-->
+                                <!--        </div>-->
                                         <!--end col-6 -->
-                                    </div>
+                                <!--    </div>-->
                                     <!-- end row -->
-                                </div>
+                                <!--</div>-->
                                 <!-- end container -->
                             </div>
                             <!-- end about-studio -->
                         </section>
+                        
+                                                                                                                          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" ></script>
+	<div class="pricing-container">
+		<ul class="pricing-list bounce-invert">
+			<li>
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+							<h2 style="font-size:42px;">Tester's Bag</h2>
+							<div class="price">
+								<span class="currency">₹</span>
+								<span class="value">5000</span>
+								<span class="duration">mo</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>20,000+</em> Views</li>
+								<li><em>1,000+</em> Likes</li>
+								<li><em>Location</em> Targeting✅</li>
+								<li><em>Interest</em> Targeting✅ </li>
+								<li><em>Language </em> Targeting✅ </li>
+								<li><em>Targeted </em> Audience ✅</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="contact-us.php">Book Now</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+							<h2 style="font-size:42px;">Basic</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">320</span>
+								<span class="duration">yr</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>5</em> Email Accounts</li>
+								<li><em>1</em> Template Style</li>
+								<li><em>25</em> Products Loaded</li>
+								<li><em>1</em> Image per Product</li>
+								<li><em>Unlimited</em> Bandwidth</li>
+								<li><em>24/7</em> Support</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="contact-us.php">Book Now</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+			<li class="exclusive">
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+							<h2 style="font-size:42px; color:#CD201F;">Fan Finder <br>(<span style="color:	#DAA520;">Gold</span>)</h2>
+							<div class="price">
+								<span class="currency">₹</span>
+								<span class="value">25,000</span>
+								<span class="duration">mo</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>100,000+</em> Views</li>
+								<li><em>5000+</em> Likes</li>
+								<li><em>Location</em> Targeting✅</li>
+								<li><em>Interest</em> Targeting✅ </li>
+								<li><em>Language </em> Targeting✅ </li>
+								<li><em>Targeted </em> Audience ✅</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="contact-us.php">Book Now</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+							<h2 style="font-size:42px;">Exclusive</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">630</span>
+								<span class="duration">yr</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>15</em> Email Accounts</li>
+								<li><em>3</em> Template Styles</li>
+								<li><em>40</em> Products Loaded</li>
+								<li><em>7</em> Images per Product</li>
+								<li><em>Unlimited</em> Bandwidth</li>
+								<li><em>24/7</em> Support</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="contact-us.php">Book Now</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul class="pricing-wrapper">
+					<li data-type="monthly" class="is-visible">
+						<header class="pricing-header">
+							<h2 style="font-size:42px;">Brand Builder</h2>
+							<div class="price">
+								<span class="currency">₹</span>
+								<span class="value">50,000</span>
+								<span class="duration">mo</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>1 Million+</em> Views</li>
+								<li><em>30k+</em> Likes</li>
+								<li><em>2000+</em> Comments</li>
+								<li><em>2000+</em> Subscribers</li>
+								<li><em>Language </em> Targeting✅ </li>
+								<li><em>Targeted </em> Audience ✅</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="contact-us.php">Book Now</a>
+						</footer>
+					</li>
+					<li data-type="yearly" class="is-hidden">
+						<header class="pricing-header">
+							<h2 style="font-size:42px;">Pro</h2>
+							<div class="price">
+								<span class="currency">$</span>
+								<span class="value">950</span>
+								<span class="duration">yr</span>
+							</div>
+						</header>
+						<div class="pricing-body">
+							<ul class="pricing-features">
+								<li><em>20</em> Email Accounts</li>
+								<li><em>5</em> Template Styles</li>
+								<li><em>50</em> Products Loaded</li>
+								<li><em>10</em> Images per Product</li>
+								<li><em>Unlimited</em> Bandwidth</li>
+								<li><em>24/7</em> Support</li>
+							</ul>
+						</div>
+						<footer class="pricing-footer">
+							<a class="select" href="contact-us.php">Book Now</a>
+						</footer>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	
+	<style>
+	    html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: "Open Sans", sans-serif;
+	color: #2d3d4f;
+	background-color: #CD201F;
+}
+
+a {
+	text-decoration: none;
+}
+
+.pricing-container {
+	width: 90%;
+	max-width: 1170px;
+	margin: 4em auto;
+}
+
+.pricing-container {
+    margin: 6em auto;
+}
+.pricing-container.full-width {
+    width: 100%;
+    max-width: none;
+}
+
+.pricing-switcher {
+	text-align: center;
+}
+
+.pricing-switcher .fieldset {
+	display: inline-block;
+	position: relative;
+	padding: 2px;
+	border-radius: 50em;
+	border: 2px solid #2d3e50;
+}
+
+.pricing-switcher input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+}
+
+.pricing-switcher label {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	float: left;
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	font-size: 1.4rem;
+	color: #ffffff;
+}
+
+.pricing-switcher .switch {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 40px;
+	width: 90px;
+	background-color: #2d3e50;
+	border-radius: 50em;
+	-webkit-transition: -webkit-transform 0.5s;
+	-moz-transition: -moz-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.pricing-switcher input[type="radio"]:checked + label + .switch,
+.pricing-switcher input[type="radio"]:checked + label:nth-of-type(n) + .switch {
+	-webkit-transform: translateX(90px);
+	-moz-transform: translateX(90px);
+	-ms-transform: translateX(90px);
+	-o-transform: translateX(90px);
+	transform: translateX(90px);
+}
+
+.no-js .pricing-switcher {
+	display: none;
+}
+
+.pricing-list {
+	margin: 2em 0 0;
+}
+
+.pricing-list > li {
+	position: relative;
+	margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .pricing-list {
+    margin: 3em 0 0;
+  }
+  .pricing-list:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .pricing-list > li {
+    width: 33.3333333333%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .has-margins .pricing-list > li {
+    width: 32.3333333333%;
+    float: left;
+    margin-right: 1.5%;
+  }
+  .has-margins .pricing-list > li:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.pricing-wrapper {
+	position: relative;
+}
+
+.touch .pricing-wrapper {
+	-webkit-perspective: 2000px;
+	-moz-perspective: 2000px;
+	perspective: 2000px;
+}
+
+.pricing-wrapper.is-switched .is-visible {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	-webkit-animation: rotate 0.5s;
+	-moz-animation: rotate 0.5s;
+	animation: rotate 0.5s;
+}
+
+.pricing-wrapper.is-switched .is-hidden {
+	-webkit-transform: rotateY(0);
+	-moz-transform: rotateY(0);
+	-ms-transform: rotateY(0);
+	-o-transform: rotateY(0);
+	transform: rotateY(0);
+	-webkit-animation: rotate-inverse 0.5s;
+	-moz-animation: rotate-inverse 0.5s;
+	animation: rotate-inverse 0.5s;
+	opacity: 0;
+}
+
+.pricing-wrapper.is-switched .is-selected {
+	opacity: 1;
+}
+
+.pricing-wrapper.is-switched.reverse-animation .is-visible {
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	-ms-transform: rotateY(-180deg);
+	-o-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+	-webkit-animation: rotate-back 0.5s;
+	-moz-animation: rotate-back 0.5s;
+	animation: rotate-back 0.5s;
+}
+
+.pricing-wrapper.is-switched.reverse-animation .is-hidden {
+	-webkit-transform: rotateY(0);
+	-moz-transform: rotateY(0);
+	-ms-transform: rotateY(0);
+	-o-transform: rotateY(0);
+	transform: rotateY(0);
+	-webkit-animation: rotate-inverse-back 0.5s;
+	-moz-animation: rotate-inverse-back 0.5s;
+	animation: rotate-inverse-back 0.5s;
+	opacity: 0;
+}
+
+.pricing-wrapper.is-switched.reverse-animation .is-selected {
+	opacity: 1;
+}
+
+.pricing-wrapper > li {
+	background-color: #ffffff;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	outline: 1px solid transparent;
+}
+
+.pricing-wrapper > li::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 50px;
+	pointer-events: none;
+	background: -webkit-linear-gradient( right , #ffffff, rgba(255, 255, 255, 0));
+	background: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0));
+}
+
+.pricing-wrapper > li.is-ended::after {
+	display: none;
+}
+
+.pricing-wrapper .is-visible {
+	position: relative;
+	z-index: 5;
+}
+
+.pricing-wrapper .is-hidden {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.pricing-wrapper .is-selected {
+	z-index: 3 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .pricing-wrapper > li::before {
+    content: '';
+    position: absolute;
+    z-index: 6;
+    left: -1px;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 50%;
+    width: 1px;
+    background-color: #b1d6e8;
+  }
+  .pricing-wrapper > li::after {
+    display: none;
+  }
+  .exclusive .pricing-wrapper > li {
+    box-shadow: inset 0 0 0 3px #2d3e50;
+  }
+  .has-margins .pricing-wrapper > li,
+  .has-margins .exclusive .pricing-wrapper > li {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  :nth-of-type(1) > .pricing-wrapper > li::before {
+    display: none;
+  }
+  .has-margins .pricing-wrapper > li {
+    border-radius: 4px 4px 6px 6px;
+  }
+  .has-margins .pricing-wrapper > li::before {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .full-width .pricing-wrapper > li {
+    padding: 2.5em 0;
+  }
+}
+
+.no-js .pricing-wrapper .is-hidden {
+	position: relative;
+	-webkit-transform: rotateY(0);
+	-moz-transform: rotateY(0);
+	-ms-transform: rotateY(0);
+	-o-transform: rotateY(0);
+	transform: rotateY(0);
+	margin-top: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .exclusive .pricing-wrapper > li::before {
+    display: none;
+  }
+  .exclusive + li .pricing-wrapper > li::before {
+    display: none;
+  }
+}
+
+.pricing-header h2 {
+	padding: 0.9em 0.9em 0.6em;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-transform: uppercase;
+	text-align: center;
+}
+
+.pricing-header {
+    height: auto;
+    padding: 1.9em 0 1.6em;
+    pointer-events: auto;
+    text-align: center;
+    color: #173d50;
+    background-color: transparent;
+}
+
+.exclusive .pricing-header {
+    color: #CD201F;
+    background-color: transparent;
+}
+
+.pricing-header h2 {
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+}
+
+.currency,
+.value {
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+.duration {
+	font-weight: 700;
+	font-size: 1.3rem;
+	color: #8dc8e4;
+	text-transform: uppercase;
+}
+
+.exclusive .duration {
+	color: #f3b6ab;
+}
+
+.duration::before {
+	content: '/';
+	margin-right: 2px;
+}
+
+.value {
+    font-size: 7rem;
+    font-weight: 300;
+}
+
+.currency, 
+.duration {
+    color: #CD201F;
+}
+
+.exclusive .currency,
+.exclusive .duration {
+    color: #2d3e50;
+}
+
+.currency {
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.duration {
+    font-size: 1.4rem;
+}
+
+.pricing-body {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.is-switched .pricing-body {
+  overflow: hidden;
+}
+
+.pricing-body {
+    overflow-x: visible;
+}
+
+.pricing-features {
+	width: 600px;
+}
+
+.pricing-features:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.pricing-features li {
+	width: 100px;
+	float: left;
+	padding: 1.6em 1em;
+	font-size: 1.5rem;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.pricing-features em {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+.pricing-features {
+    width: auto;
+}
+
+.pricing-features li {
+    float: none;
+    width: auto;
+    padding: 1em;
+}
+
+.exclusive .pricing-features li {
+    margin: 0 3px;
+}
+  
+.pricing-features em {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.has-margins .exclusive .pricing-features li {
+    margin: 0;
+}
+
+.pricing-footer {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 100%;
+}
+
+.pricing-footer {
+    position: relative;
+    height: auto;
+    padding: 1.8em 0;
+    text-align: center;
+}
+
+.pricing-footer::after {
+    display: none;
+}
+
+.has-margins .pricing-footer {
+    padding-bottom: 0;
+}
+
+.select {
+	position: relative;
+	z-index: 1;
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	color: transparent;
+}
+
+.select {
+    position: static;
+    display: inline-block;
+    height: auto;
+    padding: 1.3em 2em;
+    color: #CD201F;
+    border-radius: 8px;
+    border: 2px solid #CD201F;
+    font-size: 1.4rem;
+    text-indent: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	transition: all .6s;
+	width: 70%;
+}
+
+.no-touch .select:hover {
+    background-color: #CD201F;
+	color: #ffffff;
+}
+
+.exclusive .select {
+    background-color: #CD201F;
+	color: #ffffff;
+}
+  
+.no-touch .exclusive .select:hover {
+    background-color: #24e0ba;
+}
+  
+.secondary-theme .exclusive .select {
+    background-color: #CD201F;
+}
+  
+.no-touch .secondary-theme .exclusive .select:hover {
+    background-color: #112e3c;
+}
+  
+.has-margins .select {
+    display: block;
+    padding: 1.7em 0;
+    border-radius: 0 0 4px 4px;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    -webkit-transform: perspective(2000px) rotateY(200deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(180deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  0% {
+    -moz-transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    -moz-transform: perspective(2000px) rotateY(200deg);
+  }
+  100% {
+    -moz-transform: perspective(2000px) rotateY(180deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+    -moz-transform: perspective(2000px) rotateY(0);
+    -ms-transform: perspective(2000px) rotateY(0);
+    -o-transform: perspective(2000px) rotateY(0);
+    transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    -webkit-transform: perspective(2000px) rotateY(200deg);
+    -moz-transform: perspective(2000px) rotateY(200deg);
+    -ms-transform: perspective(2000px) rotateY(200deg);
+    -o-transform: perspective(2000px) rotateY(200deg);
+    transform: perspective(2000px) rotateY(200deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(180deg);
+    -moz-transform: perspective(2000px) rotateY(180deg);
+    -ms-transform: perspective(2000px) rotateY(180deg);
+    -o-transform: perspective(2000px) rotateY(180deg);
+    transform: perspective(2000px) rotateY(180deg);
+  }
+}
+
+@-webkit-keyframes rotate-inverse {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(-180deg);
+  }
+  70% {
+    -webkit-transform: perspective(2000px) rotateY(20deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+  }
+}
+
+@-moz-keyframes rotate-inverse {
+  0% {
+    -moz-transform: perspective(2000px) rotateY(-180deg);
+  }
+  70% {
+    -moz-transform: perspective(2000px) rotateY(20deg);
+  }
+  100% {
+    -moz-transform: perspective(2000px) rotateY(0);
+  }
+}
+
+@keyframes rotate-inverse {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(-180deg);
+    -moz-transform: perspective(2000px) rotateY(-180deg);
+    -ms-transform: perspective(2000px) rotateY(-180deg);
+    -o-transform: perspective(2000px) rotateY(-180deg);
+    transform: perspective(2000px) rotateY(-180deg);
+  }
+  70% {
+    -webkit-transform: perspective(2000px) rotateY(20deg);
+    -moz-transform: perspective(2000px) rotateY(20deg);
+    -ms-transform: perspective(2000px) rotateY(20deg);
+    -o-transform: perspective(2000px) rotateY(20deg);
+    transform: perspective(2000px) rotateY(20deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+    -moz-transform: perspective(2000px) rotateY(0);
+    -ms-transform: perspective(2000px) rotateY(0);
+    -o-transform: perspective(2000px) rotateY(0);
+    transform: perspective(2000px) rotateY(0);
+  }
+}
+
+@-webkit-keyframes rotate-back {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    -webkit-transform: perspective(2000px) rotateY(-200deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(-180deg);
+  }
+}
+
+@-moz-keyframes rotate-back {
+  0% {
+    -moz-transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    -moz-transform: perspective(2000px) rotateY(-200deg);
+  }
+  100% {
+    -moz-transform: perspective(2000px) rotateY(-180deg);
+  }
+}
+
+@keyframes rotate-back {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+    -moz-transform: perspective(2000px) rotateY(0);
+    -ms-transform: perspective(2000px) rotateY(0);
+    -o-transform: perspective(2000px) rotateY(0);
+    transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    -webkit-transform: perspective(2000px) rotateY(-200deg);
+    -moz-transform: perspective(2000px) rotateY(-200deg);
+    -ms-transform: perspective(2000px) rotateY(-200deg);
+    -o-transform: perspective(2000px) rotateY(-200deg);
+    transform: perspective(2000px) rotateY(-200deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(-180deg);
+    -moz-transform: perspective(2000px) rotateY(-180deg);
+    -ms-transform: perspective(2000px) rotateY(-180deg);
+    -o-transform: perspective(2000px) rotateY(-180deg);
+    transform: perspective(2000px) rotateY(-180deg);
+  }
+}
+
+@-webkit-keyframes rotate-inverse-back {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(180deg);
+  }
+  70% {
+    -webkit-transform: perspective(2000px) rotateY(-20deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+  }
+}
+
+@-moz-keyframes rotate-inverse-back {
+  0% {
+    -moz-transform: perspective(2000px) rotateY(180deg);
+  }
+  70% {
+    -moz-transform: perspective(2000px) rotateY(-20deg);
+  }
+  100% {
+    -moz-transform: perspective(2000px) rotateY(0);
+  }
+}
+
+@keyframes rotate-inverse-back {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(180deg);
+    -moz-transform: perspective(2000px) rotateY(180deg);
+    -ms-transform: perspective(2000px) rotateY(180deg);
+    -o-transform: perspective(2000px) rotateY(180deg);
+    transform: perspective(2000px) rotateY(180deg);
+  }
+  70% {
+    -webkit-transform: perspective(2000px) rotateY(-20deg);
+    -moz-transform: perspective(2000px) rotateY(-20deg);
+    -ms-transform: perspective(2000px) rotateY(-20deg);
+    -o-transform: perspective(2000px) rotateY(-20deg);
+    transform: perspective(2000px) rotateY(-20deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+    -moz-transform: perspective(2000px) rotateY(0);
+    -ms-transform: perspective(2000px) rotateY(0);
+    -o-transform: perspective(2000px) rotateY(0);
+    transform: perspective(2000px) rotateY(0);
+  }
+}
+	</style>
+	
+	<style>
+	    @media only screen and (max-width: 767px) {
+    .project-detail .project h2 {
+        font-size: 55px; /* Adjust this size according to your preference for smaller screens */
+    }
+    
+    #whatsapp-icon {
+        right: 12%;
+    }
+}
+	</style>
 
                         <style>
                             .custom-card-container .card {
@@ -629,94 +1569,117 @@
                             }
                         </style>
 
+                                                <div class="col-md-12 col-sm-12 col-12 wow fadeIn">
+          <h2>Other<br> <span style="color:red;">Services</span></h2>
+          <p>
+                             Welcome to our services. We are dedicated to providing top-notch solutions to elevate your brand and meet your marketing needs. Explore our diverse range of services tailored to drive impactful results for your business.
+                        </p>
+      </div>
+<hr>
+
                         <section class="c-section">
-                            <h2 class="c-section__title text-dark"><span>Our Services</span></h2>
-                            <div class="container">
-                                <div class="row custom-card-container">
-                                    <div class="card-wrapper col-md-4">
-                                        <div class="card">
-                                            <h3 class="text-center text-bold">Music Marketing</h3>
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eaque ex laborum iure aliquam temporibus est asperiores quia consectetur. Tempora voluptates minima repellendus quaerat architecto facere suscipit molestias unde deserunt!
-                                            </p>
-                                        </div>
-                                    </div>
+    <div class="container">
+        <div class="row custom-card-container">
+            <!-- Repeat the following card structure for each card -->
+            <div class="card-wrapper col-md-4">
+                <div class="card">
+                    <h3 class="text-center text-bold big"><i class="fas fa-chart-bar" style="color: #3498db;"></i> Marketing Consultation</h3>
 
-                                    <div class="card-wrapper col-md-4">
-                                        <div class="card">
-                                            <h3 class="text-center text-bold">Music Marketing</h3>
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eaque ex laborum iure aliquam temporibus est asperiores quia consectetur. Tempora voluptates minima repellendus quaerat architecto facere suscipit molestias unde deserunt!
-                                            </p>
-                                        </div>
-                                    </div>
+                    <hr>
+                    <p>Elevate your brand with tailored marketing strategies through our expert Marketing Consultation services, driving impactful results.</p>
+                    <!-- Add a button with a link to another page -->
+                    <a href="music-marketing.php" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
 
-                                    <div class="card-wrapper col-md-4">
-                                        <div class="card">
-                                            <h3 class="text-center text-bold">Music Marketing</h3>
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eaque ex laborum iure aliquam temporibus est asperiores quia consectetur. Tempora voluptates minima repellendus quaerat architecto facere suscipit molestias unde deserunt!
-                                            </p>
-                                        </div>
-                                    </div>
+            <div class="card-wrapper col-md-4">
+                <div class="card">
+                    <h3 class="text-center text-bold big"><i class="far fa-newspaper" style="color: #e74c3c;"></i> Press Releases</h3>
+                    <hr>
+                    <p>Craft compelling narratives that captivate your audience with our Press Release services, strategically conveying your brand's milestones and stories.</p>
+                    <!-- Add a button with a link to another page -->
+                    <a href="press-releases.php" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
 
-                                    <div class="card-wrapper col-md-4">
-                                        <div class="card">
-                                            <h3 class="text-center text-bold">Music Marketing</h3>
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eaque ex laborum iure aliquam temporibus est asperiores quia consectetur. Tempora voluptates minima repellendus quaerat architecto facere suscipit molestias unde deserunt!
-                                            </p>
-                                        </div>
-                                    </div>
+            <div class="card-wrapper col-md-4">
+                <div class="card">
+                    <h3 class="text-center text-bold big"><i class="fab fa-google" style="color: #2ecc71;"></i> Google Ads</h3>
+                    <hr>
+                    <p>Maximize your advertising budget with strategic Google Ads placements, ensuring your brand reaches the right audience at the right moment.</p>
+                    <!-- Add a button with a link to another page -->
+                    <a href="google-ads.php" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
 
-                                    <div class="card-wrapper col-md-4">
-                                        <div class="card">
-                                            <h3 class="text-center text-bold">Music Marketing</h3>
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eaque ex laborum iure aliquam temporibus est asperiores quia consectetur. Tempora voluptates minima repellendus quaerat architecto facere suscipit molestias unde deserunt!
-                                            </p>
-                                        </div>
-                                    </div>
+            <div class="card-wrapper col-md-4">
+                <div class="card">
+                    <h3 class="text-center text-bold big"><i class="fab fa-meta" style="color: #9b59b6;"></i> Meta Ads</h3>
+                    <hr>
+                    <p>Elevate your brand presence on Meta platforms through innovative ad campaigns, connecting your business with millions of potential customers.</p>
+                    <!-- Add a button with a link to another page -->
+                    <a href="meta-ads.php" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
 
-                                    <div class="card-wrapper col-md-4">
-                                        <div class="card">
-                                            <h3 class="text-center text-bold">Music Marketing</h3>
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eaque ex laborum iure aliquam temporibus est asperiores quia consectetur. Tempora voluptates minima repellendus quaerat architecto facere suscipit molestias unde deserunt!
-                                            </p>
-                                        </div>
-                                    </div>
+            <div class="card-wrapper col-md-4">
+                <div class="card">
+                    <h3 class="text-center text-bold big"><i class="fab fa-spotify" style="color: #1db954;"></i> Spotify Promotions</h3>
+                    <hr>
+                    <p>Amplify your music's reach and impact with targeted Spotify promotions, reaching a wider audience and building a dedicated fan base.</p>
+                    <!-- Add a button with a link to another page -->
+                    <a href="spotify-promotions.php" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
 
-                                    <div class="card-wrapper col-md-4">
-                                        <div class="card">
-                                            <h3 class="text-center text-bold">Music Marketing</h3>
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eaque ex laborum iure aliquam temporibus est asperiores quia consectetur. Tempora voluptates minima repellendus quaerat architecto facere suscipit molestias unde deserunt!
-                                            </p>
-                                        </div>
-                                    </div>
+            <div class="card-wrapper col-md-4">
+                <div class="card">
+                    <h3 class="text-center text-bold big"><i class="fab fa-youtube" style="color: #ff0000;"></i> Youtube Promotions</h3>
+                    <hr>
+                    <p>Leverage YouTube's vast audience through targeted promotions, ensuring your content reaches the right viewers and drives interaction</p>
+                    <!-- Add a button with a link to another page -->
+                    <a href="youtube-promotions.php" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
 
-                                    <div class="card-wrapper col-md-4">
-                                        <div class="card">
-                                            <h3 class="text-center text-bold">Music Marketing</h3>
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eaque ex laborum iure aliquam temporibus est asperiores quia consectetur. Tempora voluptates minima repellendus quaerat architecto facere suscipit molestias unde deserunt!
-                                            </p>
-                                        </div>
-                                    </div>
+            <div class="card-wrapper col-md-4">
+                <div class="card">
+                    <h3 class="text-center text-bold big"><i class="fas fa-money-bill-alt" style="color: #27ae60;"></i> Influencer Marketing</h3>
+                    <hr>
+                    <p>Elevate your marketing strategy with strategic influencer collaborations, leveraging the trust and influence of key personalities to elevate your brand.</p>
+                    <!-- Add a button with a link to another page -->
+                    <a href="influencer-marketing.php" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
 
-                                    <div class="card-wrapper col-md-4">
-                                        <div class="card">
-                                            <h3 class="text-center text-bold">Music Marketing</h3>
-                                            <p>
-                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus eaque ex laborum iure aliquam temporibus est asperiores quia consectetur. Tempora voluptates minima repellendus quaerat architecto facere suscipit molestias unde deserunt!
-                                            </p>
-                                        </div>
-                                    </div>
+            <div class="card-wrapper col-md-4">
+                <div class="card">
+                    <h3 class="text-center text-bold big"><i class="fab fa-instagram" style="color: #e1306c;"></i> Reels Promotions</h3>
+                    <hr>
+                    <p>Optimize your Reels strategy with our promotional expertise, ensuring your content stands out amidst the vast sea of short-form videos. Elevate your social media presence with our Reels Promotion service</p>
+                    <!-- Add a button with a link to another page -->
+                    <a href="reels-promotions.php" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
 
-                                </div>
-                            </div>
-                        </section>
+            <div class="card-wrapper col-md-4">
+                <div class="card">
+                    <h3 class="text-center text-bold big"><i class="fas fa-music" style="color: #3498db;"></i> Music Distribution</h3>
+                    <hr>
+                    <p>Expand your music's reach across major platforms with our Music Distribution services, ensuring your tracks are accessible to a global audience. Our Music Distribution service puts your tracks on the map.</p>
+                    <!-- Add a button with a link to another page -->
+                    <a href="music-distribution.php" class="btn btn-danger">Read More</a>
+                </div>
+            </div>
+            <!-- Repeat the above card structure for each card -->
+        </div>
+    </div>
+</section>
+<style>
+    .big{
+        font-size:25px;
+    }
+</style>
                     </div>
                 </div>
                 <!-- end container -->
@@ -757,6 +1720,15 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="js/googlemaps.min.js"></script>
+           <script>
+    function sendWhatsAppMessage() {
+      var message = "Hello Saurabh, I am interested in " + document.getElementById("whatsapp-message").innerText;
+      var encodedMessage = encodeURIComponent(message);
+
+      var whatsappLink = "https://wa.me/916267700575?text=" + encodedMessage;
+      window.open(whatsappLink, "_blank");
+    }
+  </script>
 </body>
 
 </html>

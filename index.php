@@ -69,11 +69,7 @@
               <p data-swiper-parallax="-200">
                 Our mission is to unleash the boundless potential of music, transcending boundaries and genres.
               </p>
-              <a href="#" class="link">DISCOVER NOW</a><a href="videos/video.mp4" class="video-link" data-fancybox data-width="640" data-height="360">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 104 104" enable-background="new 0 0 104 104" xml:space="preserve">
-                  <circle class="video-play-circle" fill="none" stroke="#fff" stroke-width="4" stroke-miterlimit="10" cx="52" cy="52" r="50" />
-                </svg>
-                <span class="video-play-outline"></span> </a>
+              <a href="#" class="link">DISCOVER NOW</a>
             </div>
             <!-- end inner -->
           </div>
@@ -116,88 +112,88 @@
       <div class="scroll-down"><span></span></div>
     </section>
     <section class="content">
-      <div class="works four-cols">
-        <div class="grid-sizer"></div>
-         end grid-sizer 
-        <div class="grid-item-double">
-          <figure class="reveal-effect se2-white wow perspective-box"> <img src="images/works01.jpg" alt="Image">
-            <figcaption> <a href="project-detail.html">
-                <div class="bg-color" data-background="#2095f4"></div>
-                 end bg-color 
-                <div class="brand"> </div>
-                 end brand 
-                <h5>Music Marketing Services</h5>
-                <small>Explore our comprehensive music marketing services, designed to boost your visibility and reach your target audience.</small>
-              </a> </figcaption>
-          </figure>
-        </div>
-         end grid-item 
-        <div class="grid-item-double">
-          <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works02.jpg" alt="Image">
-            <figcaption> <a href="project-detail.html">
-                <div class="bg-color" data-background="#ffc509"></div>
-                 end bg-color 
-                <div class="brand"> </div>
-                 end brand 
-                <h5>Google Ads Mastery</h5>
-                <small>Harness the power of Google Ads with our expert team to amplify your online presence and music promotions.</small>
-              </a></figcaption>
-          </figure>
-        </div>
-         end grid-item 
-        <div class="grid-item">
-          <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works03.jpg" alt="Image">
-            <figcaption> <a href="project-detail.html">
-                <div class="bg-color" data-background="#6dd7a9"></div>
-                 end bg-color 
-                <div class="brand"> </div>
-                 end brand 
-                <h5>Spotify Success</h5>
-                <small>Elevate your Spotify presence with our tailored promotion strategies, placing your music on top playlists and gaining more streams.</small>
-              </a></figcaption>
-          </figure>
-        </div>
-         end grid-item 
-        <div class="grid-item">
-          <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works04.jpg" alt="Image">
-            <figcaption><a href="project-detail.html">
-                <div class="bg-color" data-background="#2d2d2f"></div>
-                 end bg-color 
-                <div class="brand"> </div>
-                 end brand 
-                <h5>Creative Brilliance</h5>
-                <small>We create captivating content, from stunning visuals to compelling ad copy, ensuring your music makes a lasting impression.</small>
-              </a> </figcaption>
-          </figure>
-        </div>
-         end grid-item 
-        <div class="grid-item">
-          <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works06.jpg" alt="Image">
-            <figcaption> <a href="project-detail.html">
-                <div class="bg-color" data-background="#fec520"></div>
-                 end bg-color 
-                <div class="brand"> </div>
-                 end brand 
-                <h5>Influencer Partnerships</h5>
-                <small>Collaborate with industry influencers to connect with an engaged audience and amplify your music's impact.</small>
-              </a></figcaption>
-          </figure>
-        </div>
-         end grid-item 
-        <div class="grid-item-double">
-          <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works05.jpg" alt="Image">
-            <figcaption> <a href="project-detail.html">
-                <div class="bg-color" data-background="#9f7cb2"></div>
-                 end bg-color 
-                <div class="brand"> </div>
-                 end brand 
-                <h5>Seamless Music Distribution</h5>
-                <small>Simplify the process of getting your music to your fans with our comprehensive distribution services.</small>
-              </a> </figcaption>
-          </figure>
-        </div>
-         end grid-item 
-      </div>
+      <!--<div class="works four-cols">-->
+      <!--  <div class="grid-sizer"></div>-->
+      <!--   end grid-sizer -->
+      <!--  <div class="grid-item-double">-->
+      <!--    <figure class="reveal-effect se2-white wow perspective-box"> <img src="images/works01.jpg" alt="Image">-->
+      <!--      <figcaption> <a href="project-detail.html">-->
+      <!--          <div class="bg-color" data-background="#2095f4"></div>-->
+      <!--           end bg-color -->
+      <!--          <div class="brand"> </div>-->
+      <!--           end brand -->
+      <!--          <h5>Music Marketing Services</h5>-->
+      <!--          <small>Explore our comprehensive music marketing services, designed to boost your visibility and reach your target audience.</small>-->
+      <!--        </a> </figcaption>-->
+      <!--    </figure>-->
+      <!--  </div>-->
+      <!--   end grid-item -->
+      <!--  <div class="grid-item-double">-->
+      <!--    <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works02.jpg" alt="Image">-->
+      <!--      <figcaption> <a href="project-detail.html">-->
+      <!--          <div class="bg-color" data-background="#ffc509"></div>-->
+      <!--           end bg-color -->
+      <!--          <div class="brand"> </div>-->
+      <!--           end brand -->
+      <!--          <h5>Google Ads Mastery</h5>-->
+      <!--          <small>Harness the power of Google Ads with our expert team to amplify your online presence and music promotions.</small>-->
+      <!--        </a></figcaption>-->
+      <!--    </figure>-->
+      <!--  </div>-->
+      <!--   end grid-item -->
+      <!--  <div class="grid-item">-->
+      <!--    <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works03.jpg" alt="Image">-->
+      <!--      <figcaption> <a href="project-detail.html">-->
+      <!--          <div class="bg-color" data-background="#6dd7a9"></div>-->
+      <!--           end bg-color -->
+      <!--          <div class="brand"> </div>-->
+      <!--           end brand -->
+      <!--          <h5>Spotify Success</h5>-->
+      <!--          <small>Elevate your Spotify presence with our tailored promotion strategies, placing your music on top playlists and gaining more streams.</small>-->
+      <!--        </a></figcaption>-->
+      <!--    </figure>-->
+      <!--  </div>-->
+      <!--   end grid-item -->
+      <!--  <div class="grid-item">-->
+      <!--    <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works04.jpg" alt="Image">-->
+      <!--      <figcaption><a href="project-detail.html">-->
+      <!--          <div class="bg-color" data-background="#2d2d2f"></div>-->
+      <!--           end bg-color -->
+      <!--          <div class="brand"> </div>-->
+      <!--           end brand -->
+      <!--          <h5>Creative Brilliance</h5>-->
+      <!--          <small>We create captivating content, from stunning visuals to compelling ad copy, ensuring your music makes a lasting impression.</small>-->
+      <!--        </a> </figcaption>-->
+      <!--    </figure>-->
+      <!--  </div>-->
+      <!--   end grid-item -->
+      <!--  <div class="grid-item">-->
+      <!--    <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works06.jpg" alt="Image">-->
+      <!--      <figcaption> <a href="project-detail.html">-->
+      <!--          <div class="bg-color" data-background="#fec520"></div>-->
+      <!--           end bg-color -->
+      <!--          <div class="brand"> </div>-->
+      <!--           end brand -->
+      <!--          <h5>Influencer Partnerships</h5>-->
+      <!--          <small>Collaborate with industry influencers to connect with an engaged audience and amplify your music's impact.</small>-->
+      <!--        </a></figcaption>-->
+      <!--    </figure>-->
+      <!--  </div>-->
+      <!--   end grid-item -->
+      <!--  <div class="grid-item-double">-->
+      <!--    <figure class="reveal-effect se2-white wow perspective-box"><img src="images/works05.jpg" alt="Image">-->
+      <!--      <figcaption> <a href="project-detail.html">-->
+      <!--          <div class="bg-color" data-background="#9f7cb2"></div>-->
+      <!--           end bg-color -->
+      <!--          <div class="brand"> </div>-->
+      <!--           end brand -->
+      <!--          <h5>Seamless Music Distribution</h5>-->
+      <!--          <small>Simplify the process of getting your music to your fans with our comprehensive distribution services.</small>-->
+      <!--        </a> </figcaption>-->
+      <!--    </figure>-->
+      <!--  </div>-->
+      <!--   end grid-item -->
+      <!--</div>-->
       <!-- end works -->
       <div class="icon-features">
         <div class="container">
@@ -208,7 +204,7 @@
               <p>
                 Our expertise in Meta Ads (Facebook and Instagram) enhances your reach and engagement.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="meta-ads.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
             <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image">
@@ -216,7 +212,7 @@
               <p>
                 Elevate your YouTube presence and increase views with our promotional strategies.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="youtube-promotions.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
             <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image">
@@ -224,31 +220,31 @@
               <p>
                 Utilize Instagram Reels for music promotion and capturing audience attention.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="reels-promotions.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
             <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image">
-              <small>Artist Branding</small>
+              <small>Press Releases</small>
               <p>
                 Craft a unique and compelling brand identity that resonates with your audience.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="press-releases.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
             <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image">
-              <small>Email Marketing</small>
+              <small>Google Ads</small>
               <p>
                 Engage your audience through strategic email marketing campaigns.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="google-ads.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
             <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image">
-              <small>Content Creation</small>
+              <small>Spotify Promotions</small>
               <p>
                 We create captivating content to tell your music's story and connect with fans.
               </p>
-              <a href="service.php">DISCOVER MORE</a>
+              <a href="spotify-promotions.php">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
           </div>
