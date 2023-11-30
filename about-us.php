@@ -182,54 +182,35 @@
       <!-- end team-members -->
        <div class="icon-features">
         <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image"> <small>
-                Meta Ads
-              </small>
-              <p>
-                Our expertise in Meta Ads (Facebook and Instagram) enhances your reach and engagement.
-              </p>
-              <a href="meta-ads.php">DISCOVER MORE</a>
+          <div class="row justify-content-md-center">
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image"> <small>UI-UX
+                DESIGN</small>
+              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+              <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image">
-              <small>YouTube Promotions</small>
-              <p>
-                Elevate your YouTube presence and increase views with our promotional strategies.
-              </p>
-              <a href="youtube-promotions.php">DISCOVER MORE</a>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon02.png" alt="Image">
+              <small>DEVELOPMENT</small>
+              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+              <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image">
-              <small>Reels Promotions</small>
-              <p>
-                Utilize Instagram Reels for music promotion and capturing audience attention.
-              </p>
-              <a href="reels-promotions.php">DISCOVER MORE</a>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon03.png" alt="Image">
+              <small>MARKETTING</small>
+              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+              <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon01.png" alt="Image">
-              <small>Press Releases</small>
-              <p>
-                Craft a unique and compelling brand identity that resonates with your audience.
-              </p>
-              <a href="press-releases.php">DISCOVER MORE</a>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon04.png" alt="Image">
+              <small>SUPPORT</small>
+              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+              <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.2s"> <img src="images/icon02.png" alt="Image">
-              <small>Google Ads</small>
-              <p>
-                Engage your audience through strategic email marketing campaigns.
-              </p>
-              <a href="google-ads.php">DISCOVER MORE</a>
-            </div>
-            <!-- end col-4 -->
-            <div class="col-md-4 col-sm-4 col-12 wow fadeIn" data-wow-delay="0.4s"> <img src="images/icon03.png" alt="Image">
-              <small>Spotify Promotions</small>
-              <p>
-                We create captivating content to tell your music's story and connect with fans.
-              </p>
-              <a href="spotify-promotions.php">DISCOVER MORE</a>
+            <div class="col-md-4 col-sm-4 col-12 wow fadeIn"> <img src="images/icon05.png" alt="Image">
+              <small>FRAMEWORK</small>
+              <p>Anchor provides a fantastic living experience and its facilities accommodate every students needs.</p>
+              <a href="#">DISCOVER MORE</a>
             </div>
             <!-- end col-4 -->
           </div>
